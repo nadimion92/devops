@@ -1,4 +1,4 @@
-name: Greeting Nadime on variable day
+name: Greeting nadime on variable day
 
 on:
   workflow_dispatch
@@ -12,7 +12,7 @@ jobs:
     env:
       Greeting: Hello
     steps:
-    - name: "Say Hello Nadime it's Monday"
+    - name: "Say Hello nadime it's Monday"
       run: echo "$Greeting $first_Name. Today is $DAY_OF_WEEK!"
       env:
-        First_Name: Nadime
+        First_Name: nadime
